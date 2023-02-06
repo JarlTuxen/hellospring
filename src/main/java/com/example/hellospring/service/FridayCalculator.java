@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class FridayCalculator {
 
+    //FridayCalculator branch
     public String erdetfredag(){
         LocalDate today = LocalDate.now();
         int q = today.getDayOfMonth(); //day of the month (1-31)
